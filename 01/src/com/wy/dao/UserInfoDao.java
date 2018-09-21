@@ -61,7 +61,7 @@ public class UserInfoDao implements UserInfoDaoImp {
 		} catch (SQLException ex) {		
 			return null;
 		} finally {
-			connection.closeConnection();//不管怎样 , 最后都要执行 closeConnection的操作;
+			connection.closeConnection();//不管怎样 , 最后都要执行 closeConnection的操作.
 		}
 		return userinfo;
 	}
